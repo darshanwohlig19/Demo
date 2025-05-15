@@ -1,8 +1,8 @@
-name: Docker CI/CD
+name: CI / CD Test
 
 on:
   push:
-    branches: [main]
+    branches: [master]
 
 jobs:
   docker-build:
