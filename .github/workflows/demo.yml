@@ -1,4 +1,4 @@
-name: CI / CD Test
+name: Test
 
 on:
   push:
@@ -24,3 +24,6 @@ jobs:
           context: .
           push: true
           tags: darshanwohlig/demo:latest
+
+
+ 
